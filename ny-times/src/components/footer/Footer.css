@@ -1,0 +1,13 @@
+.textoFooter {
+  font-family: "UnifrakturCook", cursive;
+}
+
+.flexFooter {
+  display: flex;
+  font-family: "Libre Baskerville", serif;
+  justify-content: center;
+}
+
+.linhaFooter {
+  width: 100%;
+}

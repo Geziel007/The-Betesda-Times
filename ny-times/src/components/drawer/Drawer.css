@@ -1,0 +1,144 @@
+.headerTop {
+  width: 100%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.flex {
+  width: 84%;
+  height: 42px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Titulo {
+  width: 230px;
+  cursor: pointer;
+  font-family: "UnifrakturCook", cursive;
+  font-size: x-large;
+}
+
+.iconesEsquerda {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  gap: 32px;
+}
+
+.divEspaco {
+  width: 20%;
+}
+
+.labelBold {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.labelBold:hover {
+  text-decoration: underline;
+}
+
+.headerBottom {
+  width: 100%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  align-items: center;
+}
+
+.headerBottom divEspaco {
+  width: 10%;
+}
+
+.logoContainer {
+  width: 20%;
+  margin-left: 14px;
+}
+
+.logo {
+  width: 30px;
+  cursor: pointer;
+  font-family: "UnifrakturCook", cursive;
+  font-size: xx-large;
+}
+
+.paginas {
+  gap: 16px;
+  display: flex;
+  font-size: 15px;
+}
+
+.tituloPaginas {
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.tituloPaginas:hover {
+  text-decoration: underline;
+}
+
+.linhaVertical {
+  width: 2px;
+  height: 16px;
+  border-left: 1px solid rgb(211, 211, 211);
+}
+
+@media (max-width: 600px) {
+  .labelBold {
+    display: none;
+  }
+  .lupa {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+  .labelBoldMedia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    margin-left: 12px;
+  }
+  .tituloPaginas {
+    display: none;
+  }
+  .headerBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1210px) {
+  .paginas {
+    gap: 16px;
+    display: flex;
+    font-size: 12px;
+  }
+
+  .labelBold {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 600px) {
+  .labelBoldMedia {
+    display: none;
+  }
+}
