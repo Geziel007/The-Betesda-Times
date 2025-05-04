@@ -54,7 +54,7 @@ const Drawer = () => {
                 <KeyboardArrowRightIcon style={{ fontSize: 15 }} />
               </label>{" "}
               <div className="labelBoldMedia">
-                <label>A New York </label>
+                <label>Betesda </label>
                 <label style={{ display: "flex", alignItems: "center" }}>
                   Times in Spanish{" "}
                   <KeyboardArrowRightIcon style={{ fontSize: 15 }} />
